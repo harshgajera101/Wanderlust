@@ -77,10 +77,12 @@ A full-stack web application inspired by **Airbnb**, where users can **discover,
 
 Ensure you have the following:
 
-* Node.js (v14+)
-* npm
-* MongoDB (or Atlas)
-* Git
+
+* 🟢 **Node.js** (v14+)
+* 📦 **npm**
+* 🛢️ **MongoDB** (or 🌩️ **MongoDB Atlas**)
+* 🧬 **Git**
+
 
 ### ⚙️ Setup
 
@@ -156,13 +158,15 @@ wanderlust/
 
 ## 🔮 Future Enhancements
 
-* [ ] Advanced search filters (price, amenities)
-* [ ] Booking system + calendar
-* [ ] Payment gateway integration
-* [ ] Email notifications
-* [ ] Admin dashboard
-* [ ] PWA/mobile app
-* [ ] Multi-language support
+
+* 🧲 **Advanced Search Filters** (💰 price, 🛏️ amenities)
+* 📅 **Booking System** with Calendar Integration
+* 💳 **Payment Gateway** Integration
+* 📧 **Email Notifications**
+* 🛠️ **Admin Dashboard**
+* 📱 **PWA / Mobile App**
+* 🌐 **Multi-Language Support**
+
 
 ---
 
@@ -178,8 +182,10 @@ wanderlust/
 
 ## 🐞 Known Issues
 
-* Image uploads may be slow on free Cloudinary tier
-* Maps may not load well on unstable connections
+
+* 🐢 **Image uploads** may be slow on the free **Cloudinary** tier
+* 🌐 **Maps** may not load properly on unstable internet connections
+
 
 ---
 
