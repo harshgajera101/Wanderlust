@@ -103,19 +103,21 @@ Ensure you have the following:
    Create a `.env` file:
 
    ```env
-   MONGODB_URL=your_mongo_url
-   ATLASDB_URL=your_atlas_url
-   CLOUD_NAME=your_cloud_name
-   CLOUD_API_KEY=your_api_key
-   CLOUD_API_SECRET=your_api_secret
-   MAP_TOKEN=your_mapbox_token
-   SECRET=your_secret_key
+   MONGODB_URL=your_mongo_url        # Local MongoDB connection string
+   ATLASDB_URL=your_atlas_url        # MongoDB Atlas cloud database URL
+   
+   CLOUD_NAME=your_cloud_name        # Cloudinary - your cloud name
+   CLOUD_API_KEY=your_api_key        # Cloudinary - API key
+   CLOUD_API_SECRET=your_api_secret  # Cloudinary - API secret
+   
+   MAP_TOKEN=your_mapbox_token       # Mapbox - access token for interactive maps
+   SECRET=your_secret_key            # Express-session - secret key for session management
    ```
 
 4. **Run the App**
 
    ```bash
-   npm start       # or npm run dev (with nodemon)
+   node app.js       # or nodemon app.js (with nodemon)
    ```
 
 Visit: `http://localhost:3000`
