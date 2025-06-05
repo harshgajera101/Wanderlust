@@ -20,7 +20,7 @@ const listingRouter = require("./routes/listing.js");
 const reviewRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
-// const mongo_url = "mongodb://127.0.0.1:27017/wanderlust";
+const mongodb_url = process.env.MONGODB_URL;
 const dburl = process.env.ATLASBD_URL;
 
 main()
